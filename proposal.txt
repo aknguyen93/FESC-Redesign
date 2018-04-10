@@ -1,0 +1,31 @@
+Objective: The objective of this project is to redesign Florida Energy's website to make it better.
+Purpose: The purpose of this project is to improve Florida Energy's website.
+
+
+
+
+State of the current website:
+- Accessibility audit: "The purpose of an Accessibility Audit is to establish how well a particular environment performs in terms of access and ease of use by a wide range of potential users, including people with disabilities and the visually impaired, and also to recommend improvements, where necessary."
+
+- Mobile friendliness: According to Google, the website is not mobile friendly. Clickable elements are too close together, the viewport is not set, the text is too small to read, and the content is wider than the screen.
+
+- Performance: According to Web Page Test, the performance of the website can be improved. The load time of the website is at 4.324s, which isn't too slow but could be improved. The pie graph shows that images take up 55% of requests and 43.4% of bytes. By shrinking the images, we can decrease the time a page will load.
+
+- Functionality: It looks like the website is functioning properly with the links working.
+
+- Ease of Use: Difficult to use due to the amounts of links there are. Two navigation bars can be a little overwhelming. I would recommend condensing the amount of links in the navigation bar. With the site not being mobile friendly, it is difficult to see the whole webpage. Having a horizontal scroll bar, in addition to a vertical scroll bar, makes it troublesome.
+
+
+
+
+User research: The expected user to access this website would be anyone working for the Florida State government, users at its 12 supported universities, the Florida Legislature, Executive Office of the Governor, and the Florida’s Office of Energy. The goal of the consortium is to become a world leader in energy research, education, technology, and energy systems analysis.
+
+
+
+
+Device support necessary: The devices this website should be fluid in are laptops, mobile devices, and tablets. Since most of its users are in high level, we expect them to have a fairly stable income meaning the will most likely have high end devices.
+
+
+
+
+Recommendations: I recommend a leaner website with less navigation. Probably with 5-7 links per bar max. To do so, we would combine liked links so that there are categories versus one link for every website they have. This will help users find what they need easier without having to read the entire website to see where they should go. Another deliverable is make the website mobile friendly. This will eliminate the horizontal scroll bar so that it will be easier for the user to navigate the website in one direction. In addition, when making the site mobile friendly, we should only include one navigation bar with the more important link for ease of navigating.
