@@ -21,6 +21,26 @@
     <meta name="twitter:card" content="summary_large_image">
     
     <link rel="stylesheet" href="main.css">
+    
+    <!-- Twitter widgets.js script -->
+    <script>
+      window.twttr = (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+          t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+
+        t._e = [];
+        t.ready = function(f) {
+          t._e.push(f);
+        };
+
+        return t;
+      }(document, "script", "twitter-wjs"));
+    </script>
   </head>
   
   <body>
@@ -37,9 +57,11 @@
     </section>
     
     <footer>
-      <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=wow">
+      <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Wow%2C+learning+about+energy+is+so+cool%21">
         Tweet
       </a>
+      
+      <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Faknguyen93.github.io%2FFESC-Redesign%2F&layout=button&size=small&mobile_iframe=true&width=59&height=20&appId" width="59" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
     </footer>
   </body>
 
