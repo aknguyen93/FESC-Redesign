@@ -1,0 +1,28 @@
+body {
+  background-color: lightsteelblue;
+  font-family: sans-serif; }
+
+.topnav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+.topnav li {
+  float: left; }
+
+.topnav li a {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 20px 100px; }
+
+.topnav li a:hover {
+  background-color: lightgray;
+  color: black; }
+
+h1 {
+  clear: both;
+  color: red; }
+
+/*# sourceMappingURL=new-styles.css.map */
