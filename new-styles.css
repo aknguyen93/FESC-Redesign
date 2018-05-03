@@ -9,12 +9,17 @@ img {
   display: block; }
 
 body {
+  background-image: url(images/green-background.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: whitesmoke;
   font-family: sans-serif;
   font-size: 100%; }
 
 .container {
-  width: 90%;
+  width: 80%;
   margin: auto; }
 
 header img {
