@@ -1,3 +1,5 @@
+$blue: rgb(42, 180, 193);
+
 * {
   margin: 0;
   padding: 0;
@@ -33,14 +35,10 @@ header img {
 
 #topnav {
   width: 100%;
-}
-
-#topnav ul {
+  
+  ul {
   list-style-type: none;
-}
-
-#topnav li {
-
+  }
 }
 
 #topnav li a {
@@ -52,11 +50,11 @@ header img {
   float: left;
   width: 33.333%;
   padding: 1rem 0;
-}
-
-#topnav li a:hover {
+  
+  &:hover {
   background-color: yellowgreen;
   color: black;
+  }
 }
 
 // OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER OTHER 
@@ -65,26 +63,26 @@ header img {
   clear: both;
   background-color: white;
   padding: 1rem 1rem 3rem 1rem;
-}
 
-.main .logo {
+  .logo {
   width: 30%;
   border: 1px solid red;
+  }
 }
 
 h1 {
   font-family: 'Playfair Display', serif;
   font-size: 200%;
-  color: rgb(42, 180, 193);
+  color: $blue;
   border: 1px solid green;
 }
 
 footer {
   background-color: lightgray;
-}
-
-footer img {
+  
+  img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  }
 }

@@ -27,9 +27,8 @@ header img {
 
 #topnav {
   width: 100%; }
-
-#topnav ul {
-  list-style-type: none; }
+  #topnav ul {
+    list-style-type: none; }
 
 #topnav li a {
   display: block;
@@ -40,19 +39,17 @@ header img {
   float: left;
   width: 33.333%;
   padding: 1rem 0; }
-
-#topnav li a:hover {
-  background-color: yellowgreen;
-  color: black; }
+  #topnav li a:hover {
+    background-color: yellowgreen;
+    color: black; }
 
 .main {
   clear: both;
   background-color: white;
   padding: 1rem 1rem 3rem 1rem; }
-
-.main .logo {
-  width: 30%;
-  border: 1px solid red; }
+  .main .logo {
+    width: 30%;
+    border: 1px solid red; }
 
 h1 {
   font-family: 'Playfair Display', serif;
@@ -62,10 +59,9 @@ h1 {
 
 footer {
   background-color: lightgray; }
-
-footer img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
+  footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
 
 /*# sourceMappingURL=new-styles.css.map */
