@@ -48,14 +48,12 @@ header img {
   background-color: white;
   padding: 1rem 1rem 3rem 1rem; }
   .main .logo {
-    width: 30%;
-    border: 1px solid red; }
+    width: 30%; }
 
 h1 {
   font-family: 'Playfair Display', serif;
   font-size: 200%;
-  color: #2ab4c1;
-  border: 1px solid green; }
+  color: #2ab4c1; }
 
 footer {
   background-color: lightgray; }
