@@ -75,11 +75,27 @@ function drawChart1() {
 
       var options = {
         chart: {
-          title: 'Annual Renewable Energy Production in Florida',
+          title: 'Annual Total Electricity Consumption in Florida',
           subtitle: 'Source: U.S. Energy Information Administration'
         },
-        width: 600,
+        vAxis: {
+          title: 'BTU',
+          titleTextStyle: {
+            color: 'green'
+          }
+        },
+        hAxis: {
+          title: 'Year',
+          titleTextStyle: {
+            color: 'green'
+          }
+        },
+        width: 500,
         height: 500,
+        chartArea: {
+          width: '100%', 
+          height: '100%',
+          backgroundColor: 'e6efe1'},
       };
 
       var chart = new google.charts.Line(document.getElementById('chart_div1'));
@@ -158,8 +174,24 @@ function drawChart2() {
           title: 'Annual Total Electricity Consumption in Florida',
           subtitle: 'Source: U.S. Energy Information Administration'
         },
-        width: 600,
-        height: 500
+        vAxis: {
+          title: 'BTU',
+          titleTextStyle: {
+            color: 'green'
+          }
+        },
+        hAxis: {
+          title: 'Year',
+          titleTextStyle: {
+            color: 'green'
+          }
+        },
+        width: 500,
+        height: 500,
+        chartArea: {
+          width: '100%', 
+          height: '100%',
+          backgroundColor: 'e6efe1'},
       };
 
       var chart = new google.charts.Line(document.getElementById('chart_div2'));
