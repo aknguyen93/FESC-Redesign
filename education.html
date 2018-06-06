@@ -48,13 +48,17 @@
     
     <!-- Google Charts -->
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    
+    <!-- Vue JS -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="components.js"></script>
   </head>
   
   <body>
+    <div id="education-app">
     <section class="container">
-      <header>
-      <img src="images/main-energy.jpg" alt="Photo of battery">
-      </header>
+      
+      <main-header text="FESC - Education"></main-header>
 
       <div id="topnav">
         <ul>
@@ -68,6 +72,8 @@
 
       <section class="main">
         <img class="logo" src="images/FESC-logo.png" alt="Logo of FESC">
+        <br>
+        <h2>Education</h2>
         <br>
         <img src="images/students-on-laptop.jpg" alt="Students learning on laptops">
 
@@ -109,7 +115,8 @@
       </section>
     </section>
     
-    <script src="main.js"></script>
+    <script src="education.js"></script>
+    </div>
   </body>
 
 </html>

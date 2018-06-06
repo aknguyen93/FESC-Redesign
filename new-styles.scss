@@ -31,6 +31,10 @@ header img {
  width: 100%;
 }
 
+header h1 {
+  color: white;
+}
+
 // NAVIGATION NAVIGATION NAVIGATION NAVIGATION NAVIGATION NAVIGATION NAVIGATION NAVIGATION 
 
 #topnav {
@@ -71,8 +75,14 @@ header img {
 
 h1 {
   font-family: 'Playfair Display', serif;
-  font-size: 200%;
+  font-size: 250%;
   color: $blue;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 150%;
+  color: orange;
 }
 
 footer {

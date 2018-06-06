@@ -48,48 +48,17 @@
     
     <!-- Google Charts -->
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
 
-      // Load the Visualization API and the corechart package.
-      google.charts.load('current', {'packages':['corechart']});
-
-      // Set a callback to run when the Google Visualization API is loaded.
-      google.charts.setOnLoadCallback(drawChart);
-
-      // Callback that creates and populates a data table,
-      // instantiates the pie chart, passes in the data and
-      // draws it.
-      function drawChart() {
-
-        // Create the data table.
-        var data = new google.visualization.DataTable();
-        data.addColumn('string', 'Topping');
-        data.addColumn('number', 'Slices');
-        data.addRows([
-          ['Mushrooms', 3],
-          ['Onions', 1],
-          ['Olives', 1],
-          ['Zucchini', 1],
-          ['Pepperoni', 2]
-        ]);
-
-        // Set chart options
-        var options = {'title':'How Much Pizza I Ate Last Night',
-                       'width':400,
-                       'height':300};
-
-        // Instantiate and draw our chart, passing in some options.
-        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
-        chart.draw(data, options);
-      }
-    </script>
+    <!-- Vue JS -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="components.js"></script>
   </head>
   
   <body>
+    <div id="app">
     <section class="container">
-      <header>
-      <img src="images/main-energy.jpg" alt="Photo of battery">
-      </header>
+      
+      <main-header text="FESC"></main-header>
 
       <div id="topnav">
         <ul>
@@ -104,8 +73,7 @@
       <section class="main">
         <img class="logo" src="images/FESC-logo.png" alt="Logo of FESC">
         <br>
-        <h1>FESC Bringing Energy Solutions to Florida, the Nation and the World</h1>
-        <br>
+        <h2>Bringing Energy Solutions to Florida, the Nation and the World</h2>
         <p>The Florida Energy Systems Consortium (FESC) was created by the Florida State government to promote collaboration among the energy experts at its 12 supported universities to share energy-related expertise. The consortium assists the state in the development and implementation of an environmentally compatible, sustainable, and efficient energy strategic plan. The Consortium was charged to ‘perform research and development on innovative energy systems that lead to alternative energy strategies, improved energy efficiencies, and expanded economic development for the state‘. The legislature appropriated funding for research at five of the universities as well as support for education, outreach, and technology commercialization. The Consortium reports to and provides guidance on an as needed basis to the Florida Legislature, Executive Office of the Governor, and the Florida’s Office of Energy housed in the Florida Department of Agriculture and Consumer Services.</p>
         <br>
         <p>Overarching to the Consortium’s research strategy is an energy systems approach to identify innovation opportunities, prepare an energy workforce, and guide economic development.</p>
@@ -137,8 +105,9 @@
         <img src="images/energy-summit-info.jpg" alt="Information about Energy Summit">
       </footer>
     </section>
-    
-    <script src="main.js"></script>
+
+    <script src="index.js"></script>
+    </div>
   </body>
 
 </html>

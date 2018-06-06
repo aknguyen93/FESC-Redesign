@@ -25,6 +25,10 @@ body {
 header img {
   width: 100%; }
 
+header h1 {
+  color: white;
+}
+
 #topnav {
   width: 100%; }
   #topnav ul {
@@ -52,8 +56,14 @@ header img {
 
 h1 {
   font-family: 'Playfair Display', serif;
-  font-size: 200%;
+  font-size: 250%;
   color: #2ab4c1; }
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 150%;
+  color: orange;
+}
 
 footer {
   background-color: lightgray; }
